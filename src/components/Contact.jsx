@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="bg-gradient-to-tl from-[#e1e1e1] to-[#fff] dark:from-[#111827] dark:to-[#111827] dark:shadow-none rounded-2xl shadow-xl WRAPPER mx-2 flex justify-between p-7 mb-7 max-sm:flex-col-reverse max-sm:p-2">
           <div className="ABOUT p-7">
             <h2 className="text-[#00040f] font-semibold dark:text-slate-300 leading-7 text-xl tracking-wider max-sm:text-center">
-              Lucas Silva
+              Lucas Lopes
             </h2>
             <p className="text-gray-600 dark:text-slate-400 leading-[30.8px] mt-7 max-w-[400px] max-sm:text-center">
               Aqui abaixo está onde você pode me procurar e me enviar mensagens:
@@ -29,13 +29,13 @@ const Contact = () => {
                 <SiGithub />
               </a>
               <a
-                href="https://www.instagram.com/lxcasc0de/"
+                href="https://www.instagram.com/vzlukin/"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiInstagram />
               </a>
               <a
-                href="luccasvnz@gmail.com"
+                href="contalxccas@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
                 <SiGmail />
@@ -51,7 +51,7 @@ const Contact = () => {
         </div>
 
         <p className="text-[#00040f] dark:text-slate-300 mx-2 text-center capitalize tracking-widest max-sm:text-sm p-2">
-          Desenvolved with 💻 by Lucas Silva
+          Desenvolved with 💻 by Lucas Lopes
         </p>
       </section>
     </>
