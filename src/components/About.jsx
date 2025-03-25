@@ -14,7 +14,7 @@ const About = () => {
               Opa, e aí?! <br />Eu sou o
             </h3>
             <span className="bg-clip-text text-transparent bg-gradient-to-r  from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200">
-              Lucas Silva
+              Lucas Lopes
               
             </span>
 

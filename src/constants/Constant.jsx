@@ -10,6 +10,8 @@ import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/react.png";
 import Vue from "../assets/vue.png";
+import mongodb from "../assets/mongodb.png";
+import nodejs from "../assets/nodejs.png";
 
 import GPT4 from "../assets/gpt4.jpg";
 import Portfolio from "../assets/portfolio.jpg";
@@ -35,4 +37,6 @@ export {
   Rocket,
   WellBeing,
   Game,
+  mongodb,
+  nodejs,
 };

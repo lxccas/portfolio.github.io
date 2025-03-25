@@ -15,10 +15,12 @@ import {
   SiReact,
   SiTailwindcss,
   SiVite,
+  SiPython,
   SiHtml5,
   SiCss3,
   SiJavascript,
 } from "react-icons/si";
+import { GitHub } from "@mui/icons-material";
 
 const Projects = () => {
   useEffect(() => {
@@ -31,7 +33,7 @@ const Projects = () => {
     >
       <div className="WRAPPER mt-10" data-aos="fade-down">
         <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5  max-sm:text-4xl  ">
-          Projects
+          Projetos
         </h1>
 
         <div
@@ -39,29 +41,14 @@ const Projects = () => {
           data-aos="zoom-out-down"
         >
           <Project_prop
-            title="BlastBoost Website"
-            para="BlastBoost is a website that focuses on introducing pc and game optimization "
-            img={GPT4}
-            link="https://blastboost.dev"
-            github_link="https://github.com/lxccas/blastboost"
+            title="Todo-Cli"
+            para="Uma simples lista de tarefas (to-do list) para o terminal, feito em Python! "
+            img={Game}
+            github_link="https://github.com/lxccas/todocli"
             react={
-              <Tooltip title="React" arrow>
+              <Tooltip title="Python" arrow>
                 <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
-                <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            css3={
-              <Tooltip title="CSS 3" arrow>
-                <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
+                  <SiPython className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }

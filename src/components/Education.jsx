@@ -36,9 +36,6 @@ const Education = () => {
             </div>
 
             <div className="mt-7 flex flex-col gap-5 text-left pl-4">
-              <p className="italic capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
-                Maio 2024 - Junho 2025
-              </p>
 
               <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
                 Análise e Desenvolvimento de Sistemas

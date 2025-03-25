@@ -42,7 +42,6 @@ const Project_prop = (props) => {
             <SiGithub />
           </a>
           <a href={props.link} target="_blank" rel="noreferrer">
-            <SlLink />
           </a>
         </div>
       </div>
