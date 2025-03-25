@@ -24,7 +24,7 @@ jobs:
       - name: Criar artefato para deploy
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./src
+          path: ./src/
 
       - name: Publicar no GitHub Pages
         uses: actions/deploy-pages@v4
