@@ -1,12 +1,12 @@
-name: Deploy para GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
     branches:
-      - master #
+      - master
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -19,12 +19,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v3
 
-      - name: Criar artefato para deploy
-        uses: actions/upload-pages-artifact@v3
+      - name: Fazer upload dos arquivos
+        uses: actions/upload-pages-artifact@v2
         with:
-          path: ./src/
+          path: .
 
       - name: Publicar no GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
