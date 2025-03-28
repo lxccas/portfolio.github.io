@@ -23,7 +23,7 @@ const Experience = () => {
             EXPERIENCIA
           </h1>
           <p className="text-center text-gray-500 dark:text-slate-500 text-2xl my-5">
-            Ainda não experiência de trabalho, estou apenas começando a minha jornada como desenvolvedor!
+            Ainda não tenho experiência de trabalho, estou apenas começando a minha jornada como desenvolvedor!
           </p>
           <div
             className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-3"
